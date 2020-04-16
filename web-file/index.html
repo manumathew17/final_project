@@ -187,7 +187,6 @@ h1 {
 
 
 
-  <!-- ======= Header ======= -->
   <header id="header">
     <div class="container">
 
@@ -226,17 +225,15 @@ h1 {
       <div class="item" style="background-image: url('assets/img/intro-carousel/3.jpg');"></div>
     </div>
 
-  </section><!-- End Intro Secon -->
+  </section>
 
   <main id="main">
 
 
       
 
-    <!-- ======= Services Section ======= -->
       <div id="myModal" class="modal">
 
-  <!-- Modal content -->
   <div class="modal-content">
     <center>
     <p>Just a moment uploading file..</p>
@@ -276,14 +273,10 @@ h1 {
              </form> 
              
             </div>
-<!-- original pen: https://codepen.io/roydigerhund/pen/ZQdbeN  -->
 
-<!-- NO JS ADDED YET -->
-  
 
      
-    </section><!-- End Services Section -->
-          <!-- ======= About Section ======= -->
+    </section>
     <section id="about" class="wow fadeInUp">
       <div class="container">
         <div class="row">
@@ -306,7 +299,7 @@ h1 {
 
 
       </div>
-    </section><!-- End About Section -->
+    </section>
 
     
       
@@ -361,7 +354,7 @@ h1 {
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
       
       
       
@@ -373,9 +366,7 @@ h1 {
       
       
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
+  </main>
   <footer id="footer">
     <div class="container">
       <div class="copyright">
@@ -383,22 +374,19 @@ h1 {
       </div>
 
     </div>
-  </footer><!-- End Footer -->
-  
+  </footer>
     
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
      <script>
-// Get the modal
+
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
+
 var btn = document.getElementById("submit");
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal.style.display = "block";
     
@@ -406,7 +394,6 @@ btn.onclick = function() {
 
 
 
-// When the user clicks anywhere outside of the modal, close it
 
 </script>
       
@@ -420,13 +407,9 @@ input.addEventListener( 'change', showFileName );
 
 function showFileName( event ) {
   
-  // the change event gives us the input it occurred in 
-  var input = event.srcElement;
-  
-  // the input has an array of files in the `files` property, each one has a name that you can use. We're just using the name here.
+  var input = event.srcElement; here.
   var fileName = input.files[0].name;
   
-  // use fileName however fits your app best, i.e. add it into a div
   infoArea.textContent =fileName;
      infoArea1.textContent = 'File Name: ' + fileName;
 }
@@ -439,7 +422,6 @@ $(document).ready(
             function(){
                 if ($(this).val()) {
                     $('#submit').attr('disabled',false);
-                    // or, as has been pointed out elsewhere:
                     $('#submit').removeAttr('disabled'); 
                 } 
             }
@@ -448,7 +430,6 @@ $(document).ready(
 </script>
 
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -460,7 +441,6 @@ $(document).ready(
   <script src="assets/vendor/superfish/superfish.min.js"></script>
   <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
     
 
