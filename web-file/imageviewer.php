@@ -58,10 +58,10 @@ if ($filecount>0){
 unlink("imageupload/uploadedcsvfile.csv");
 
 }
-$servername = "remotemysql.com";
-$username = "mi3cVqPqNO";
-$password = "xqVF2riQ3D";
-$database = "mi3cVqPqNO";
+$servername = "----------.com";
+$username = "------------";
+$password = "------------";
+$database = "------------";
 
 $db = mysqli_connect($servername, $username, $password, $database);
 $sql = "SELECT * FROM mi3cVqPqNO.outputs";
